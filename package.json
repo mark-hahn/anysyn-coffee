@@ -1,0 +1,37 @@
+{
+  "name": "anysyn-coffee",
+  "version": "0.0.1",
+  "description": "Plugin for AnySyn that provides editing of ES6 with coffee-script syntax in Atom",
+  "main": "lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mark-hahn/anysyn-coffee"
+  },
+  "keywords": [
+    "anysyn",
+    "atom",
+    "coffeescript",
+    "javascript",
+    "es6",
+    "syntax"
+  ],
+  "author": "Mark Hahn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mark-hahn/anysyn-coffee/issues"
+  },
+  "homepage": "https://github.com/mark-hahn/anysyn-coffee",
+  "dependencies": {
+    "sub-atom": "^1.0.0"
+  },
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "providedServices": {
+    "AnySyn-Syntax": {
+      "versions": {
+        "0.1.0": "addSyntax"
+      }
+    }
+  }
+}
